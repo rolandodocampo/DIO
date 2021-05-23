@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="LG"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2021-05-20 10:38:35 "/>
+        <attribute name="created" value="TEc7REVTS1RPUC0zMkc0SFBBOzIwMjEtMDUtMjA7IjEwOjI1OjEwICI7MjM0Nw=="/>
+        <attribute name="edited" value="TEc7REVTS1RPUC0zMkc0SFBBOzIwMjEtMDUtMjA7IjEwOjM4OjM1ICI7MTsyNDY2"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="janeiro, febreiro, marzo, abril, media" type="Real" array="False" size=""/>
+            <output expression="&quot;Entre la venta en janeiro&quot;" newline="True"/>
+            <input variable="janeiro"/>
+            <output expression="&quot;Entre la venta en febreiro&quot;" newline="True"/>
+            <input variable="febreiro"/>
+            <output expression="&quot;Entre la venta en marzo&quot;" newline="True"/>
+            <input variable="marzo"/>
+            <output expression="&quot;Entre la venta en abril&quot;" newline="True"/>
+            <input variable="abril"/>
+            <assign variable="media" expression="(janeiro+febreiro+marzo+abril)/4"/>
+            <if expression="media &gt;= 5000">
+                <then>
+                    <output expression="&quot;Parabens vc vai recever un abono do 10%&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;Vc recebera um abono do 3%&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

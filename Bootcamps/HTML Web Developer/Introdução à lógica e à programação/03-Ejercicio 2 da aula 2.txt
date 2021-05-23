@@ -1,0 +1,15 @@
+/* Crie um algoritmo do seu dia a dia */
+
+Inicio do dia
+   Acordo
+   Tomo café da manhã
+   Escovo meus dentes
+   Eu tomo banho
+   Eu me seco
+   Boto roupas
+   Vou trabalhar
+   Vou para casa
+   Eu tomo banho
+   Janto
+   Durmo
+Fin do dia

@@ -1,0 +1,25 @@
+/* Algortimo para o jogo do pinguim: https://rachacuca.com.br/jogos/pinguins-numa-fria/ */
+
+Inicio do jogo
+   pinguim menor azul vai para o iceberg
+   pinguim maior azul vai para o iceberg
+   mover icerberg
+   deixar o pinguim maior azul
+   mover icerberg
+   pinguim menor verde vai para o icerberg
+   mover icerberg
+   deixar pinguim menor azul
+   mover icerberg 
+   pinguim maior verde vair para icerberg
+   mover icerberg
+   deixar pinguim maior verde
+   mover icerberg
+   pinguim menor vermelho vai para o icerberg
+   mover icerberg
+   deixar pinguim menor verde
+   mover icerberg
+   pinguim maior vermelho vai para o icerberg
+   mover icerberg
+   deixar pinguim maior vermelho
+   deixar pinguim menor vermelho
+Fin do jogo
