@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Align self</title>
+
+   <style>
+      .container{
+         display: flex;
+         max-width: 350px;
+         border: 2px solid black;
+         margin-bottom: 10px;
+      }
+
+      .align-container{
+         align-items: center;
+      }
+
+      .item{
+         flex: 1;
+         background-color: brown;
+         color: white;
+         text-align: center;
+         margin: 5px;
+      }
+
+      .center{
+         align-self: center;
+      }
+
+      .start{
+         align-self: flex-start;
+      }
+
+      .end{
+         align-self: flex-end;
+      }
+
+      .baseline{
+         align-self: baseline;
+      }
+
+      .strech{
+         align-self: stretch;
+      }
+
+      .auto{
+         align-self: auto;
+      }
+   </style>
+</head>
+
+
+<body>
+   <p>auto align-container = center</p>
+   <div class="container align-container">
+      <div class="item auto">A</div>
+      <div class="item auto">Bdalfkjasdlfkjsdalfkjsdffsdf</div>
+      <div class="item auto">C</div>
+      <div class="item auto">D</div>
+   </div>
+
+   <p>auto align-container = center</p>
+   <div class="container">
+      <div class="item auto">A</div>
+      <div class="item auto">Bdalfkjasdlfkjsdalfkjsdffsdf</div>
+      <div class="item auto">C</div>
+      <div class="item auto">D</div>
+   </div>
+</body>
+</html>

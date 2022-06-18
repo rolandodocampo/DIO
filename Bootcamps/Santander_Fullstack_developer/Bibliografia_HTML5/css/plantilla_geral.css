@@ -1,0 +1,55 @@
+@font-face {
+   font-family: "DancingScript-VariableFont_wght";
+   src: url("/Bibliografia_HTML5/fonts/DancingScript-VariableFont_wght/DancingScript-VariableFont_wght.ttf") format("truetype");
+ }
+
+ @font-face {
+   font-family: "KdamThmorPro-Regular";
+   src: url("/Bibliografia_HTML5/fonts/KdamThmorPro-Regular.ttf") format("truetype");
+ }
+
+body{
+   background-color: #13589b;
+   width: 50%;
+   margin: auto;
+}
+
+#encabezado_princial{
+   background-color: #2f2d30;
+}
+
+h1, h2, p{
+   color: white;
+}
+
+h1, h2{
+   font-family: "DancingScript-VariableFont_wght";
+}
+
+p, ul{
+   font-family: "KdamThmorPro-Regular";
+}
+
+p, blockquote{
+   text-align: justify;
+}
+
+nav{
+   background-color: white;
+}
+
+aside{
+   background-color:#1040709d;
+   display: flex;
+   flex-direction: column;
+   width: 33%;
+}
+
+.logo{
+   border-radius: 50%;
+   border: 3px solid white; 
+}
+
+footer{
+   background-color: #2f2d30
+}
