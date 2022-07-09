@@ -1,0 +1,48 @@
+body{
+   background-color: blueviolet;
+   color: black;
+}
+
+.container{
+   display: flex;
+   flex-direction: column;
+   border: 2px solid black;
+   width: 400px;
+   height: 160px;
+   margin: auto;
+   align-items: center;
+}
+
+.entrada{
+   flex-direction: row;
+   padding: 10px;
+   margin: 10px;
+}
+
+input{
+   width: 80px;
+   margin: auto;
+}
+
+#input1{
+   margin-right: 15px;
+}
+
+#input2{
+   margin-left: 15px;
+}
+
+button{
+   width: 80px;
+   height: 21px;
+}
+
+h1{
+   margin-bottom: 0px;
+}
+
+p{
+   color: white;
+   font-size: 20px;
+   margin-top: 10px;
+}
